@@ -1,0 +1,11 @@
+if i % 2 == 0:
+    media = (a+b+c) / 3
+    print(f'MA: {media}')
+else:
+    if i > 10:
+        media = (a+b+c) / 3
+        mediaPonderada = (a*2 + b*3 + c*4) / 9
+        print(f'MA: {media} \nMP: {mediaPonderada}')
+    else:
+        print("O número deve ser maior que 10 para calcular a média ponderada.")
+
