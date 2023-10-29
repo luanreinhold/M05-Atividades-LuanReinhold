@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EO8 MOD 5</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+        }
+        .absolute-box {
+            position: absolute;
+          
+            width: 1000px;
+            height: 200px;
+            top: 200px;
+            bottom: 500px;
+            left: 200px;
+            right: 200px;
+            border: purple solid 2px;
+        }
+        .relative-box {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            border: 2px solid yellow;
+            top: 10px;
+            bottom: 0px;
+            right: 10px;
+            left: 0px;
+        }
+
+        .float-box {
+            float: right;
+            border: 1px solid black
+        }
+
+        .z-index-box {
+            position: absolute;
+            z-index: 3;
+            background-color: rgb(84, 84, 253);
+        }
+
+        .translate-box {
+    
+         margin-top: 3em;
+         background-color: yellowgreen;
+         width: 100px;
+         height: 100px;
+         transform: translate(150px, 50px);
+        }
+
+        .rotate-box {
+           transform: rotate(40deg);
+            position: relative;
+            bottom: 150px;
+            left: 240px;
+            background-color: aqua;
+            height: 100px;
+            width: 100px;
+    
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="box">
+
+    </div>
+
+    <div class="absolute-box">
+
+    </div>
+
+    <div class="relative-box">
+
+    </div>
+
+    <div class="float-box">
+        Elemento F1 (flutuante)
+    </div>
+
+    <div>
+        Elemento 2 (não flutuante)
+    </div>
+
+    <div class="z-index-box">
+        Elemento 1 (Z-index)
+    </div>
+
+    <div class="translate-box">
+       Elemento translate
+    </div>
+
+    <div class="rotate-box">
+        Elemento Rotate
+    </div>
+    
+</body>
+</html>

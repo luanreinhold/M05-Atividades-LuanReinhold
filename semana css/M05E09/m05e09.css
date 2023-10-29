@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#hcb {
+    background-color: rgb(191, 243, 156);
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: bigger;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px 10px rgb(143, 233, 83);
+}
+
+#pnl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 94%;
+     margin: 20px;
+     padding: 25px;
+     font-size: 20px;
+     height: 250px;
+     background-color: rgb(191, 243, 156);
+     border: 3px solid green;
+     list-style-type: square;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+li {
+    color: rgb(180, 12, 12);
+}
+
+.texto {
+    padding: 45px;
+    font-size: 15px;
+}
+
+.texto > p::first-letter {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tabela {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgb(191, 243, 156);
+}
+
+th, tr, td {
+    border: 3px solid black;
+    padding: 15px;
+    margin: 20px;
+    background-color: white;
+}
+
+th:hover, tr:hover, td:hover {
+    cursor: pointer;
+}
+
+
+table {
+   margin: 20px;
+}
+
+.tabela:hover {
+    background-color: rgb(184, 243, 145);
+}
+
+button {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(215, 245, 196);
+    box-shadow: 2px 2px 5px 10px rgb(184, 248, 142);
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20rem;
+    width: 100%;
+    color: white;
+    background-color: rgb(191, 243, 156);
+    text-align: center;
+ 
+}
+
+.rodape:hover {
+    cursor: pointer;
+    background-color: rgb(174, 240, 130);
+}
+
+
+#codefico-logo {
+    width: 450px;
+    height: 220px;
+}
